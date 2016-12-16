@@ -1,6 +1,6 @@
 {
-  "name": "ymantillar/PlaceToPay",
-  "description": "Integracion plataforma de pagos PlaceToPay",
+  "name": "ymantillar/placetopay",
+  "description": "integracion plataforma de pagos placetopay",
   "license": "MIT",
   "authors": [
     {
