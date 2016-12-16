@@ -1,0 +1,33 @@
+{
+  "name": "ymantillar/PlaceToPay",
+  "description": "Integracion plataforma de pagos PlaceToPay",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "yesid mantilla",
+      "email": "ymantillarueda@gmail.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {
+    "php": ">=5.4.0",
+    "ext-soap": "*",
+    "ext-curl": "*",
+    "guzzlehttp/guzzle": "~5.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "5.5.*"
+  },
+  "autoload": {
+    "psr-4": {
+      "ymantillar\\PlaceToPay\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "ymantillar\\PlaceToPay\\tests\\": "tests/"
+    }
+  }
+
+}
+
