@@ -12,7 +12,7 @@ use ymantillar\PlaceToPay\ClsTransactionInformation;
 use SoapClient;
 
 
-class ClsLibPlaceToPay implements interfacePlaceToPay
+class ClsLibPlaceToPay implements PlaceToPay
 {    
     public static $auth;
     public static $wsdl;
@@ -74,6 +74,8 @@ class ClsLibPlaceToPay implements interfacePlaceToPay
         
         return $transactionInformation;
     }
+	
+	
 }
 
 ?>

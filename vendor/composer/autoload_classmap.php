@@ -776,7 +776,8 @@ return array(
     'ymantillar\\PlaceToPay\\ClsPSETransactionResponse' => $baseDir . '/src/clases/ClsPSETransactionResponse.php',
     'ymantillar\\PlaceToPay\\ClsPerson' => $baseDir . '/src/clases/ClsPerson.php',
     'ymantillar\\PlaceToPay\\ClsTransactionInformation' => $baseDir . '/src/clases/ClsTransactionInformation.php',
-    'ymantillar\\PlaceToPay\\interfacePlaceToPay' => $baseDir . '/src/interfacePlaceToPay.php',
-    'ymantillar\\PlaceToPay\\tests\\P2PTestCase' => $baseDir . '/src/tests/P2PTestCase.php',
-    'ymantillar\\PlaceToPay\\tests\\PseTest' => $baseDir . '/src/tests/PseTest.php',
+    'ymantillar\\PlaceToPay\\PlaceToPay' => $baseDir . '/src/clases/PlaceToPay.php',
+    'ymantillar\\PlaceToPay\\tests\\AimTest' => $baseDir . '/tests/AimTest.php',
+    'ymantillar\\PlaceToPay\\tests\\P2PTestCase' => $baseDir . '/tests/P2PTestCase.php',
+    'ymantillar\\PlaceToPay\\tests\\PseTest' => $baseDir . '/tests/PseTest.php',
 );

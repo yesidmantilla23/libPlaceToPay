@@ -875,9 +875,10 @@ class ComposerStaticInita049f2f4efd6c3c48af62d5bdc5c47e1
         'ymantillar\\PlaceToPay\\ClsPSETransactionResponse' => __DIR__ . '/../..' . '/src/clases/ClsPSETransactionResponse.php',
         'ymantillar\\PlaceToPay\\ClsPerson' => __DIR__ . '/../..' . '/src/clases/ClsPerson.php',
         'ymantillar\\PlaceToPay\\ClsTransactionInformation' => __DIR__ . '/../..' . '/src/clases/ClsTransactionInformation.php',
-        'ymantillar\\PlaceToPay\\interfacePlaceToPay' => __DIR__ . '/../..' . '/src/interfacePlaceToPay.php',
-        'ymantillar\\PlaceToPay\\tests\\P2PTestCase' => __DIR__ . '/../..' . '/src/tests/P2PTestCase.php',
-        'ymantillar\\PlaceToPay\\tests\\PseTest' => __DIR__ . '/../..' . '/src/tests/PseTest.php',
+        'ymantillar\\PlaceToPay\\PlaceToPay' => __DIR__ . '/../..' . '/src/clases/PlaceToPay.php',
+        'ymantillar\\PlaceToPay\\tests\\AimTest' => __DIR__ . '/../..' . '/tests/AimTest.php',
+        'ymantillar\\PlaceToPay\\tests\\P2PTestCase' => __DIR__ . '/../..' . '/tests/P2PTestCase.php',
+        'ymantillar\\PlaceToPay\\tests\\PseTest' => __DIR__ . '/../..' . '/tests/PseTest.php',
     );
 
     public static function getInitializer(ClassLoader $loader)

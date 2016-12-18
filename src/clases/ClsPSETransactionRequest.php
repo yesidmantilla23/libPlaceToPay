@@ -1,7 +1,9 @@
 <?php
 namespace ymantillar\PlaceToPay;
 
-class ClsPSETransactionRequest
+use ymantillar\PlaceToPay\ClsPerson;
+
+class ClsPSETransactionRequest extends Clsperson
 {
     protected $bankCode;
     protected $bankInterface;
@@ -40,9 +42,9 @@ class ClsPSETransactionRequest
           $this->taxAmount = $parameters['taxAmount'];
           $this->devolutionBase = $parameters['devolutionBase'];
           $this->tipAmount = $parameters['tipAmount'];
-          $this->payer = $parameters['payer'];
-          $this->buyer = $parameters['buyer'];
-          $this->shipping = $parameters['shipping'];
+          $this->payer = new ClsPerson($parameters['payer']);
+          $this->buyer = new ClsPerson($parameters['payer']);
+          $this->shipping = new ClsPerson($parameters['payer']);
           $this->ipAddress = $parameters['ipAddress'];
           $this->userAgent = $parameters['userAgent'];
           $this->additionalData = $parameters['additionalData'];     

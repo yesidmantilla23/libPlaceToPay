@@ -1,14 +1,13 @@
 <?php
 require __DIR__.'/../../vendor/autoload.php';
-$config = require __DIR__.'/../tests/fixtures/main.php';
+$config = require __DIR__.'/../../tests/fixtures/main.php';
 
 use ymantillar\PlaceToPay\ClsAuthentication;
 use ymantillar\PlaceToPay\ClsPSETransactionRequest;
 use ymantillar\PlaceToPay\ClsPerson;
 use ymantillar\PlaceToPay\ClsLibPlaceToPay;
-use ymantillar\PlaceToPay\interfacePlaceToPay;
 
-$placetopay = new ClsLibPlaceToPay;
+$placetopay = new ClsLibPlaceToPay();
 
 //acceder al objeto o clase ClsAuthentication pasando los parametros requeridos al contructor, espesificados en el archivo README.TXT
 $authentication = new ClsAuthentication($config['login'],$config['tranKey'],$config['adittional']);

@@ -1,7 +1,7 @@
 <?php
 namespace ymantillar\PlaceToPay;
 
-class ClsBank  
+class ClsBank 
 {
     protected $cod;
     protected $name;
@@ -33,8 +33,7 @@ class ClsBank
     {
         return $this->name;
     }
-
+	
     
-
 }
 ?>

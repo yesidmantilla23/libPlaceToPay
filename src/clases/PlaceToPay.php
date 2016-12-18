@@ -1,8 +1,7 @@
 <?php
 namespace ymantillar\PlaceToPay;
-use ymantillar\PlaceToPay\ClsPSETransactionRequest;
 
-interface  interfacePlaceToPay {
+interface  PlaceToPay {
   public static function connect($auth, $wsdl);  
   public static function getBankList();
   public static function createTransaction(ClsPSETransactionRequest $transactionRequest);
